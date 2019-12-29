@@ -1,6 +1,7 @@
 package cn.figo.test;
 
 import cn.figo.domain.Customer;
+import cn.figo.utils.JpaUtils;
 import org.junit.Test;
 
 import javax.persistence.EntityManager;
@@ -27,9 +28,11 @@ public class JpaTest {
     @Test
     public void testSave() {
         //1.加载配置文件创建工厂（实体管理器工厂）对象
-        EntityManagerFactory factory = Persistence.createEntityManagerFactory("myJpa");
+//        EntityManagerFactory factory = Persistence.createEntityManagerFactory("myJpa");
         //2.通过实体管理器工厂获取实体管理器
-        EntityManager em = factory.createEntityManager();
+//        EntityManager em = factory.createEntityManager();
+        // 通过工具类获取实体管理器
+        EntityManager em = JpaUtils.getEntityManager();
         //3.获取事务对象，开启事务
         EntityTransaction tx = em.getTransaction(); //获取事务对象
         tx.begin();//开启事务
@@ -43,6 +46,6 @@ public class JpaTest {
         tx.commit();
         //6.释放资源
         em.close();
-        factory.close();
+//        factory.close();
     }
 }

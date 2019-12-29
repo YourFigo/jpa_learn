@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3c8cf2-83be-446c-b5f4-2d735297ec2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jpa_first_demo/src/test/java/cn/figo/test/JpaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa_first_demo/src/main/java/cn/figo/utils/JpaUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa_first_demo/jpa_first_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa_first_demo/jpa_first_demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa_first_demo/src/main/java/cn/figo/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa_first_demo/src/main/java/cn/figo/domain/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpa_first_demo/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa_first_demo/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa_first_demo/src/test/java/cn/figo/test/JpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa_first_demo/src/test/java/cn/figo/test/JpaTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577624573670</updated>
-      <workItem from="1577624576144" duration="5598000" />
+      <workItem from="1577624576144" duration="7722000" />
     </task>
     <task id="LOCAL-00001" summary="配置 实体类">
       <created>1577627598460</created>
@@ -122,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577627598460</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="配置 测试jpa保存数据">
+      <created>1577630207091</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577630207091</updated>
+    </task>
+    <task id="LOCAL-00003" summary="配置 测试jpa保存数据">
+      <created>1577630424320</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577630424320</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +153,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="配置 实体类" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置 实体类" />
+    <MESSAGE value="配置 测试jpa保存数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置 测试jpa保存数据" />
   </component>
 </project>
