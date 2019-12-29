@@ -97,5 +97,18 @@ public class Customer implements Serializable {
     public void setCustPhone(String custPhone) {
         this.custPhone = custPhone;
     }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "custId=" + custId +
+                ", custName='" + custName + '\'' +
+                ", custSource='" + custSource + '\'' +
+                ", custLevel='" + custLevel + '\'' +
+                ", custIndustry='" + custIndustry + '\'' +
+                ", custPhone='" + custPhone + '\'' +
+                ", custAddress='" + custAddress + '\'' +
+                '}';
+    }
 }
 
