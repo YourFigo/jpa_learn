@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/jpa_first_demo/jpa_first_demo.iml" filepath="$PROJECT_DIR$/jpa_first_demo/jpa_first_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springdata_jpa/springdata_jpa.iml" filepath="$PROJECT_DIR$/springdata_jpa/springdata_jpa.iml" />
     </modules>
   </component>
 </project>

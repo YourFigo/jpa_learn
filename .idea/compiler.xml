@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springdata_jpa" />
         <module name="jpa_first_demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="jpa_first_demo" target="1.8" />
+      <module name="springdata_jpa" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
