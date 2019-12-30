@@ -48,4 +48,73 @@ public class JpaTest {
         em.close();
 //        factory.close();
     }
+
+    /**
+     * 根据id查询客户
+     *  使用find方法查询：
+     *      1.查询的对象就是当前客户对象本身
+     *      2.在调用find方法的时候，就会发送sql语句查询数据库
+     *  立即加载
+     */
+    @Test
+    public  void testFind() {
+        EntityManager entityManager = JpaUtils.getEntityManager();
+        EntityTransaction tx = entityManager.getTransaction();
+        tx.begin();
+        Customer customer = entityManager.find(Customer.class, 2l);
+        System.out.print(customer);
+        tx.commit();
+        entityManager.close();
+    }
+
+    /**
+     * 根据id查询客户
+     *  getReference方法
+     *    1.获取的对象是一个动态代理对象
+     *    2.调用getReference方法不会立即发送sql语句查询数据库
+     *    当调用查询结果对象的时候，才会发送查询的sql语句：什么时候用，什么时候发送sql语句查询数据库
+     * 延迟加载（懒加载）
+     *    得到的是一个动态代理对象
+     *    什么时候用，什么使用才会查询
+     */
+    @Test
+    public  void testReference() {
+        EntityManager entityManager = JpaUtils.getEntityManager();
+        EntityTransaction tx = entityManager.getTransaction();
+        tx.begin();
+        Customer customer = entityManager.getReference(Customer.class, 2l);
+        System.out.print(customer);
+        tx.commit();
+        entityManager.close();
+    }
+
+    /**
+     * 删除客户的案例
+     */
+    @Test
+    public  void testRemove() {
+        EntityManager entityManager = JpaUtils.getEntityManager();
+        EntityTransaction tx = entityManager.getTransaction();
+        tx.begin();
+        Customer customer = entityManager.find(Customer.class,1l);
+        entityManager.remove(customer);
+        tx.commit();
+        entityManager.close();
+    }
+
+    /**
+     * 更新客户的操作
+     *      merge(Object)
+     */
+    @Test
+    public  void testUpdate() {
+        EntityManager entityManager = JpaUtils.getEntityManager();
+        EntityTransaction tx = entityManager.getTransaction();
+        tx.begin();
+        Customer customer = entityManager.find(Customer.class,1l);
+        customer.setCustIndustry("it");
+        entityManager.merge(customer);
+        tx.commit();
+        entityManager.close();
+    }
 }
