@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3c8cf2-83be-446c-b5f4-2d735297ec2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jpa_first_demo/src/test/java/cn/figo/test/JpqlTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa_first_demo/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa_first_demo/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa_first_demo/src/test/java/cn/figo/test/JpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa_first_demo/src/test/java/cn/figo/test/JpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa_first_demo/src/test/java/cn/figo/test/JpqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa_first_demo/src/test/java/cn/figo/test/JpqlTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,8 +76,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JpaTest.testReference">
-    <configuration name="JpaTest.testFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JpqlTest.testCondition">
+    <configuration name="JpqlTest.testCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa_first_demo" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +86,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.JpaTest" />
-      <option name="METHOD_NAME" value="testFind" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.JpqlTest" />
+      <option name="METHOD_NAME" value="testCondition" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaTest.testReference" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JpqlTest.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa_first_demo" />
       <extension name="coverage">
         <pattern>
@@ -104,14 +102,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.JpaTest" />
-      <option name="METHOD_NAME" value="testReference" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.JpqlTest" />
+      <option name="METHOD_NAME" value="testCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JpqlTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa_first_demo" />
       <extension name="coverage">
         <pattern>
@@ -120,14 +118,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.JpaTest" />
-      <option name="METHOD_NAME" value="testRemove" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.JpqlTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JpqlTest.testOrders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa_first_demo" />
       <extension name="coverage">
         <pattern>
@@ -136,14 +134,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.JpaTest" />
-      <option name="METHOD_NAME" value="testSave" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.JpqlTest" />
+      <option name="METHOD_NAME" value="testOrders" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JpqlTest.testPaged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa_first_demo" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +150,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.JpaTest" />
-      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.JpqlTest" />
+      <option name="METHOD_NAME" value="testPaged" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JpaTest.testReference" />
-        <item itemvalue="JUnit.JpaTest.testFind" />
-        <item itemvalue="JUnit.JpaTest.testUpdate" />
-        <item itemvalue="JUnit.JpaTest.testSave" />
-        <item itemvalue="JUnit.JpaTest.testRemove" />
+        <item itemvalue="JUnit.JpqlTest.testCondition" />
+        <item itemvalue="JUnit.JpqlTest.testPaged" />
+        <item itemvalue="JUnit.JpqlTest.testCount" />
+        <item itemvalue="JUnit.JpqlTest.testOrders" />
+        <item itemvalue="JUnit.JpqlTest.testFindAll" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +178,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577624573670</updated>
       <workItem from="1577624576144" duration="7777000" />
-      <workItem from="1577707208516" duration="2724000" />
+      <workItem from="1577707208516" duration="3999000" />
     </task>
     <task id="LOCAL-00001" summary="配置 实体类">
       <created>1577627598460</created>
@@ -210,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577632598817</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="jpa 增删改查">
+      <created>1577714774738</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577714774738</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +238,7 @@
     <MESSAGE value="配置 实体类" />
     <MESSAGE value="配置 测试jpa保存数据" />
     <MESSAGE value="配置 抽取JPA工具类" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置 抽取JPA工具类" />
+    <MESSAGE value="jpa 增删改查" />
+    <option name="LAST_COMMIT_MESSAGE" value="jpa 增删改查" />
   </component>
 </project>
