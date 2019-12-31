@@ -78,7 +78,7 @@
 
     <!-- 5.aop-->
     <aop:config>
-        <aop:pointcut id="pointcut" expression="execution(* cn.itcast.service.*.*(..))" />
+        <aop:pointcut id="pointcut" expression="execution(* cn.figo.service.*.*(..))" />
         <aop:advisor advice-ref="txAdvice" pointcut-ref="pointcut" />
     </aop:config>
 
