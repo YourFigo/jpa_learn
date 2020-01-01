@@ -59,4 +59,35 @@ public class JpqlTest {
             System.out.println(Arrays.toString(obj));
         }
     }
+
+    @Test
+    public void testFindSqlByCondition() {
+        List<Object[]> list = customerDao.findSqlByCondition("%宝");
+        for(Object [] obj : list) {
+            System.out.println(Arrays.toString(obj));
+        }
+    }
+
+    //测试方法命名规则的查询
+    @Test
+    public void testNaming() {
+        Customer customer = customerDao.findByCustName("支付宝");
+        System.out.println(customer);
+    }
+
+    //测试方法命名规则的查询
+    @Test
+    public void testFindByCustNameLike() {
+        List<Customer> list = customerDao.findByCustNameLike("支付%");
+        for (Customer customer : list) {
+            System.out.println(customer);
+        }
+    }
+
+    //测试方法命名规则的查询
+    @Test
+    public void testFindByCustNameLikeAndCustIndustry() {
+        Customer customer = customerDao.findByCustNameLikeAndCustIndustry("支付%", "it");
+        System.out.println(customer);
+    }
 }
