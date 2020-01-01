@@ -98,7 +98,6 @@ public class CustomerDaoTest {
     /**
      * 根据id从数据库查询
      *      @Transactional : 保证getOne正常运行
-     *
      *  findOne：
      *      em.find()           :立即加载
      *  getOne：
