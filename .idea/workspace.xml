@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3c8cf2-83be-446c-b5f4-2d735297ec2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/test/java/cn/figo/test/CustomerDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdata_jpa/src/test/java/cn/figo/test/CustomerDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa/src/test/java/cn/figo/test/CustomerDaoTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,8 +76,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerDaoTest.testFindOne">
-    <configuration name="CustomerDaoTest.testFindOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CustomerDaoTest.testExists">
+    <configuration name="CustomerDaoTest.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springdata_jpa" />
       <extension name="coverage">
         <pattern>
@@ -87,46 +87,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.figo.test" />
       <option name="MAIN_CLASS_NAME" value="cn.figo.test.CustomerDaoTest" />
-      <option name="METHOD_NAME" value="testFindOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JpqlTest.testCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa_first_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.figo.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.JpqlTest" />
-      <option name="METHOD_NAME" value="testCondition" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JpqlTest.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa_first_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.figo.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.JpqlTest" />
       <option name="METHOD_NAME" value="testCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpqlTest.testOrders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa_first_demo" />
+    <configuration name="CustomerDaoTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdata_jpa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.figo.test.*" />
@@ -134,15 +102,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.JpqlTest" />
-      <option name="METHOD_NAME" value="testOrders" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.CustomerDaoTest" />
+      <option name="METHOD_NAME" value="testDelete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpqlTest.testPaged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa_first_demo" />
+    <configuration name="CustomerDaoTest.testExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdata_jpa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.figo.test.*" />
@@ -150,8 +118,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.JpqlTest" />
-      <option name="METHOD_NAME" value="testPaged" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.CustomerDaoTest" />
+      <option name="METHOD_NAME" value="testExists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerDaoTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdata_jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.figo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.figo.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.CustomerDaoTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerDaoTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdata_jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.figo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.figo.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.CustomerDaoTest" />
+      <option name="METHOD_NAME" value="testUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CustomerDaoTest.testFindOne" />
-        <item itemvalue="JUnit.JpqlTest.testCondition" />
-        <item itemvalue="JUnit.JpqlTest.testPaged" />
-        <item itemvalue="JUnit.JpqlTest.testCount" />
-        <item itemvalue="JUnit.JpqlTest.testOrders" />
+        <item itemvalue="JUnit.CustomerDaoTest.testExists" />
+        <item itemvalue="JUnit.CustomerDaoTest.testCount" />
+        <item itemvalue="JUnit.CustomerDaoTest.testFindAll" />
+        <item itemvalue="JUnit.CustomerDaoTest.testDelete" />
+        <item itemvalue="JUnit.CustomerDaoTest.testUpdate" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +181,7 @@
       <workItem from="1577707208516" duration="5341000" />
       <workItem from="1577717475931" duration="417000" />
       <workItem from="1577775956203" duration="472000" />
-      <workItem from="1577860245774" duration="1947000" />
+      <workItem from="1577860245774" duration="3138000" />
     </task>
     <task id="LOCAL-00001" summary="配置 实体类">
       <created>1577627598460</created>
@@ -239,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577776436214</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="spring data jpa 测试dao接口的查询">
+      <created>1577868572606</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577868572606</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +273,7 @@
     <MESSAGE value="使用 JPQL 进行查询" />
     <MESSAGE value="spring data jpa 配置" />
     <MESSAGE value="spring data jpa 实体类和持久化接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring data jpa 实体类和持久化接口" />
+    <MESSAGE value="spring data jpa 测试dao接口的查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring data jpa 测试dao接口的查询" />
   </component>
 </project>
