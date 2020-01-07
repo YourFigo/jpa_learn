@@ -10,6 +10,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.persistence.criteria.*;
+import java.util.List;
 
 /**
  * @Author Figo
@@ -96,5 +97,32 @@ public class SpecTest {
         };
         Customer customer = customerDao.findOne(spec);
         System.out.println(customer);
+    }
+
+    /**
+     * 完成根据客户名称的模糊匹配，返回客户列表
+     *      客户名称以 ’支付‘ 开头
+     *
+     * equal ：直接的到path对象（属性），然后进行比较即可
+     * gt，lt,ge,le,like : 得到path对象，根据path指定比较的参数类型，再去进行比较
+     *      指定参数类型：path.as(类型的字节码对象)
+     */
+    @Test
+    public void testSpec2() {
+        //构造查询条件
+        Specification<Customer> spec = new Specification<Customer>() {
+            @Override
+            public Predicate toPredicate(Root<Customer> root, CriteriaQuery<?> query, CriteriaBuilder cb) {
+                //查询属性：客户名
+                Path<Object> custName = root.get("custName");
+                //查询方式：模糊匹配
+                Predicate like = cb.like(custName.as(String.class), "支付%");
+                return like;
+            }
+        };
+        List<Customer> list = customerDao.findAll(spec);
+        for (Customer customer : list) {
+            System.out.println(customer);
+        }
     }
 }
