@@ -40,9 +40,9 @@ public class CustomerDaoTest {
     @Test
     public void testSave() {
         Customer customer  = new Customer();
-        customer.setCustName("网易");
-        customer.setCustLevel("vip");
-        customer.setCustIndustry("it");
+        customer.setCustName("支付宝");
+        customer.setCustLevel("111");
+        customer.setCustIndustry("金融");
         customerDao.save(customer);
     }
 

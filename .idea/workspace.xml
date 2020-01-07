@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="de3c8cf2-83be-446c-b5f4-2d735297ec2a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdata_jpa/src/test/java/cn/figo/test/CustomerDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa/src/test/java/cn/figo/test/CustomerDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springdata_jpa/src/test/java/cn/figo/test/SpecTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa/src/test/java/cn/figo/test/SpecTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,8 +78,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpecTest.testSpec2">
-    <configuration name="JpqlTest.testFindByCustNameLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SpecTest.testSpec4">
+    <configuration name="CustomerDaoTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springdata_jpa" />
       <extension name="coverage">
         <pattern>
@@ -87,40 +88,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.JpqlTest" />
-      <option name="METHOD_NAME" value="testFindByCustNameLike" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JpqlTest.testFindByCustNameLikeAndCustIndustry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springdata_jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.figo.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.JpqlTest" />
-      <option name="METHOD_NAME" value="testFindByCustNameLikeAndCustIndustry" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpecTest.testSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springdata_jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.figo.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.SpecTest" />
-      <option name="METHOD_NAME" value="testSpec" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.CustomerDaoTest" />
+      <option name="METHOD_NAME" value="testSave" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,13 +127,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpecTest.testSpec3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdata_jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.figo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.figo.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.SpecTest" />
+      <option name="METHOD_NAME" value="testSpec3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecTest.testSpec4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdata_jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.figo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.figo.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.SpecTest" />
+      <option name="METHOD_NAME" value="testSpec4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpecTest.testSpec4" />
+        <item itemvalue="JUnit.SpecTest.testSpec3" />
+        <item itemvalue="JUnit.CustomerDaoTest.testSave" />
         <item itemvalue="JUnit.SpecTest.testSpec2" />
         <item itemvalue="JUnit.SpecTest.testSpec1" />
-        <item itemvalue="JUnit.SpecTest.testSpec" />
-        <item itemvalue="JUnit.JpqlTest.testFindByCustNameLikeAndCustIndustry" />
-        <item itemvalue="JUnit.JpqlTest.testFindByCustNameLike" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +185,7 @@
       <workItem from="1577775956203" duration="472000" />
       <workItem from="1577860245774" duration="11112000" />
       <workItem from="1578402540933" duration="5000" />
-      <workItem from="1578405247637" duration="2780000" />
+      <workItem from="1578405247637" duration="4204000" />
     </task>
     <task id="LOCAL-00001" summary="配置 实体类">
       <created>1577627598460</created>
@@ -284,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578409396434</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="spring data jpa 使用 JpaSpecifications 模糊匹配findAll">
+      <created>1578410083403</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578410083403</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +325,7 @@
     <MESSAGE value="spring data jpa 使用 SpringData名称规则进行查询" />
     <MESSAGE value="spring data jpa 使用 JpaSpecifications进行动态查询" />
     <MESSAGE value="spring data jpa 使用 JpaSpecifications 多条件查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring data jpa 使用 JpaSpecifications 多条件查询" />
+    <MESSAGE value="spring data jpa 使用 JpaSpecifications 模糊匹配findAll" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring data jpa 使用 JpaSpecifications 模糊匹配findAll" />
   </component>
 </project>
