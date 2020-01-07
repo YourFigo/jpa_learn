@@ -23,7 +23,7 @@ public class SpecTest {
     private CustomerDao customerDao;
 
     /**
-     * 根据条件，查询单个对象
+     * 单条件查询
      */
     @Test
     public void testSpec() {
@@ -56,6 +56,42 @@ public class SpecTest {
                  */
                 Predicate predicate = cb.equal(custName, "支付宝");//进行精准的匹配  （比较的属性，比较的属性的取值）
                 return predicate;
+            }
+        };
+        Customer customer = customerDao.findOne(spec);
+        System.out.println(customer);
+    }
+
+    /**
+     * 多条件查询
+     *      案例：根据客户名（支付宝）和客户所属行业查询（it）
+     */
+    @Test
+    public void testSpec1() {
+        /**
+         *  root:获取属性
+         *      客户名
+         *      所属行业
+         *  cb：构造查询
+         *      1.构造客户名的精准匹配查询
+         *      2.构造所属行业的精准匹配查询
+         *      3.将以上两个查询联系起来
+         */
+        Specification<Customer> spec = new Specification<Customer>() {
+            @Override
+            public Predicate toPredicate(Root<Customer> root, CriteriaQuery<?> query, CriteriaBuilder cb) {
+                Path<Object> custName = root.get("custName");//客户名
+                Path<Object> custIndustry = root.get("custIndustry");//所属行业
+
+                //构造查询
+                //1.构造客户名的精准匹配查询
+                Predicate p1 = cb.equal(custName, "支付宝");//第一个参数，path（属性），第二个参数，属性的取值
+                //2..构造所属行业的精准匹配查询
+                Predicate p2 = cb.equal(custIndustry, "it");
+                //3.将多个查询条件组合到一起：组合（满足条件一并且满足条件二：与关系，满足条件一或满足条件二即可：或关系）
+                Predicate and = cb.and(p1, p2);//以与的形式拼接多个查询条件
+                // cb.or();//以或的形式拼接多个查询条件
+                return and;
             }
         };
         Customer customer = customerDao.findOne(spec);

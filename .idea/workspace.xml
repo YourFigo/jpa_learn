@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3c8cf2-83be-446c-b5f4-2d735297ec2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/test/java/cn/figo/test/SpecTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdata_jpa/src/test/java/cn/figo/test/SpecTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa/src/test/java/cn/figo/test/SpecTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JpqlTest.testFindByCustNameLikeAndCustIndustry">
+  <component name="RunManager" selected="JUnit.SpecTest.testSpec">
     <configuration name="JpqlTest.testFindByCustNameLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springdata_jpa" />
       <extension name="coverage">
@@ -105,22 +105,6 @@
       <option name="PACKAGE_NAME" value="cn.figo.test" />
       <option name="MAIN_CLASS_NAME" value="cn.figo.test.JpqlTest" />
       <option name="METHOD_NAME" value="testFindByCustNameLikeAndCustIndustry" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JpqlTest.testFindSql" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springdata_jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.figo.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.JpqlTest" />
-      <option name="METHOD_NAME" value="testFindSql" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,13 +142,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpecTest.testSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdata_jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.figo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.figo.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.SpecTest" />
+      <option name="METHOD_NAME" value="testSpec" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpecTest.testSpec" />
         <item itemvalue="JUnit.JpqlTest.testFindByCustNameLikeAndCustIndustry" />
         <item itemvalue="JUnit.JpqlTest.testFindByCustNameLike" />
         <item itemvalue="JUnit.JpqlTest.testNaming" />
         <item itemvalue="JUnit.JpqlTest.testFindSqlByCondition" />
-        <item itemvalue="JUnit.JpqlTest.testFindSql" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +184,7 @@
       <workItem from="1577775956203" duration="472000" />
       <workItem from="1577860245774" duration="11112000" />
       <workItem from="1578402540933" duration="5000" />
-      <workItem from="1578405247637" duration="1239000" />
+      <workItem from="1578405247637" duration="2178000" />
     </task>
     <task id="LOCAL-00001" summary="配置 实体类">
       <created>1577627598460</created>
@@ -270,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577877833547</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="spring data jpa 使用 JpaSpecifications进行动态查询">
+      <created>1578408553968</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578408553968</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +308,7 @@
     <MESSAGE value="spring data jpa 测试dao接口的增删改查" />
     <MESSAGE value="spring data jpa 使用JPQL和原生sql进行查询" />
     <MESSAGE value="spring data jpa 使用 SpringData名称规则进行查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring data jpa 使用 SpringData名称规则进行查询" />
+    <MESSAGE value="spring data jpa 使用 JpaSpecifications进行动态查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring data jpa 使用 JpaSpecifications进行动态查询" />
   </component>
 </project>
