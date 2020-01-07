@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3c8cf2-83be-446c-b5f4-2d735297ec2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/test/java/cn/figo/test/SpecTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdata_jpa/src/main/java/cn/figo/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/cn/figo/dao/CustomerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdata_jpa/src/test/java/cn/figo/test/JpqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa/src/test/java/cn/figo/test/JpqlTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +182,9 @@
       <workItem from="1577707208516" duration="5341000" />
       <workItem from="1577717475931" duration="417000" />
       <workItem from="1577775956203" duration="472000" />
-      <workItem from="1577860245774" duration="10969000" />
+      <workItem from="1577860245774" duration="11112000" />
+      <workItem from="1578402540933" duration="5000" />
+      <workItem from="1578405247637" duration="1239000" />
     </task>
     <task id="LOCAL-00001" summary="配置 实体类">
       <created>1577627598460</created>
@@ -262,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577876379364</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="spring data jpa 使用 SpringData名称规则进行查询">
+      <created>1577877833547</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577877833547</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +300,7 @@
     <MESSAGE value="spring data jpa 测试dao接口的查询" />
     <MESSAGE value="spring data jpa 测试dao接口的增删改查" />
     <MESSAGE value="spring data jpa 使用JPQL和原生sql进行查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring data jpa 使用JPQL和原生sql进行查询" />
+    <MESSAGE value="spring data jpa 使用 SpringData名称规则进行查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring data jpa 使用 SpringData名称规则进行查询" />
   </component>
 </project>
