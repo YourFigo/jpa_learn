@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/jpa_first_demo/pom.xml" />
         <option value="$PROJECT_DIR$/springdata_jpa/pom.xml" />
         <option value="$PROJECT_DIR$/springdata_jpa_onetomany/pom.xml" />
+        <option value="$PROJECT_DIR$/springdata_jpa_manytomany/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

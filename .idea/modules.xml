@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/jpa_first_demo/jpa_first_demo.iml" filepath="$PROJECT_DIR$/jpa_first_demo/jpa_first_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springdata_jpa/springdata_jpa.iml" filepath="$PROJECT_DIR$/springdata_jpa/springdata_jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springdata_jpa_manytomany/springdata_jpa_manytomany.iml" filepath="$PROJECT_DIR$/springdata_jpa_manytomany/springdata_jpa_manytomany.iml" />
       <module fileurl="file://$PROJECT_DIR$/springdata_jpa_onetomany/springdata_jpa_onetomany.iml" filepath="$PROJECT_DIR$/springdata_jpa_onetomany/springdata_jpa_onetomany.iml" />
     </modules>
   </component>

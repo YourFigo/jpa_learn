@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3c8cf2-83be-446c-b5f4-2d735297ec2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdata_jpa_onetomany/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa_onetomany/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa_manytomany/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +59,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="9" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springdata_jpa_onetomany/src/main/resources" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springdata_jpa_manytomany/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -197,7 +196,7 @@
       <workItem from="1578402540933" duration="5000" />
       <workItem from="1578405247637" duration="5436000" />
       <workItem from="1578412735198" duration="123000" />
-      <workItem from="1578486729717" duration="6475000" />
+      <workItem from="1578486729717" duration="6721000" />
     </task>
     <task id="LOCAL-00001" summary="配置 实体类">
       <created>1577627598460</created>
@@ -332,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578494236748</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="spring data jpa 一对多">
+      <created>1578497354774</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1578497354774</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,6 +376,7 @@
     <MESSAGE value="spring data jpa 一对多查询" />
     <MESSAGE value="spring data jpa 一对多查询 保存数据库" />
     <MESSAGE value="spring data jpa 一对多 放弃一方的维护权 级联操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring data jpa 一对多 放弃一方的维护权 级联操作" />
+    <MESSAGE value="spring data jpa 一对多" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring data jpa 一对多" />
   </component>
 </project>
