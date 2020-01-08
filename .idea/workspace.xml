@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3c8cf2-83be-446c-b5f4-2d735297ec2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springdata_jpa_onetomany/src/test/java/cn/figo/test/OneToManyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa_first_demo/src/main/resources/table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/jpa_first_demo/src/main/resources/table.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springdata_jpa_onetomany/src/main/java/cn/figo/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa_onetomany/src/main/java/cn/figo/domain/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdata_jpa_onetomany/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa_onetomany/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdata_jpa_onetomany/table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa_onetomany/table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdata_jpa_onetomany/src/test/java/cn/figo/test/OneToManyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa_onetomany/src/test/java/cn/figo/test/OneToManyTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,23 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OneToManyTest.testAdd">
-    <configuration name="CustomerDaoTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springdata_jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.figo.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.CustomerDaoTest" />
-      <option name="METHOD_NAME" value="testSave" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.OneToManyTest.testCascadeRemove">
     <configuration name="OneToManyTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springdata_jpa_onetomany" />
       <extension name="coverage">
@@ -125,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpecTest.testSpec2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springdata_jpa" />
+    <configuration name="OneToManyTest.testAdd1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdata_jpa_onetomany" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.figo.test.*" />
@@ -134,15 +115,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.SpecTest" />
-      <option name="METHOD_NAME" value="testSpec2" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.OneToManyTest" />
+      <option name="METHOD_NAME" value="testAdd1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpecTest.testSpec3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springdata_jpa" />
+    <configuration name="OneToManyTest.testAdd2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdata_jpa_onetomany" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.figo.test.*" />
@@ -150,15 +131,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.SpecTest" />
-      <option name="METHOD_NAME" value="testSpec3" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.OneToManyTest" />
+      <option name="METHOD_NAME" value="testAdd2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpecTest.testSpec4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springdata_jpa" />
+    <configuration name="OneToManyTest.testCascadeAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdata_jpa_onetomany" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.figo.test.*" />
@@ -166,8 +147,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.SpecTest" />
-      <option name="METHOD_NAME" value="testSpec4" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.OneToManyTest" />
+      <option name="METHOD_NAME" value="testCascadeAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OneToManyTest.testCascadeRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdata_jpa_onetomany" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.figo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.figo.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.OneToManyTest" />
+      <option name="METHOD_NAME" value="testCascadeRemove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OneToManyTest.testCascadeRemove" />
+        <item itemvalue="JUnit.OneToManyTest.testCascadeAdd" />
+        <item itemvalue="JUnit.OneToManyTest.testAdd2" />
+        <item itemvalue="JUnit.OneToManyTest.testAdd1" />
         <item itemvalue="JUnit.OneToManyTest.testAdd" />
-        <item itemvalue="JUnit.SpecTest.testSpec4" />
-        <item itemvalue="JUnit.SpecTest.testSpec3" />
-        <item itemvalue="JUnit.CustomerDaoTest.testSave" />
-        <item itemvalue="JUnit.SpecTest.testSpec2" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +198,7 @@
       <workItem from="1578402540933" duration="5000" />
       <workItem from="1578405247637" duration="5436000" />
       <workItem from="1578412735198" duration="123000" />
-      <workItem from="1578486729717" duration="2329000" />
+      <workItem from="1578486729717" duration="3380000" />
     </task>
     <task id="LOCAL-00001" summary="配置 实体类">
       <created>1577627598460</created>
@@ -322,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578412504595</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="spring data jpa 一对多查询 保存数据库">
+      <created>1578493049036</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1578493049037</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,6 +362,7 @@
     <MESSAGE value="spring data jpa 使用 JpaSpecifications 模糊匹配findAll" />
     <MESSAGE value="spring data jpa 使用 JpaSpecifications 排序查询 和 分页查询" />
     <MESSAGE value="spring data jpa 一对多查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring data jpa 一对多查询" />
+    <MESSAGE value="spring data jpa 一对多查询 保存数据库" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring data jpa 一对多查询 保存数据库" />
   </component>
 </project>
