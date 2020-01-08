@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springdata_jpa_manytomany" />
         <module name="springdata_jpa_onetomany" />
         <module name="jpa_first_demo" />
         <module name="springdata_jpa" />
@@ -14,6 +15,7 @@
     <bytecodeTargetLevel>
       <module name="jpa_first_demo" target="1.8" />
       <module name="springdata_jpa" target="1.8" />
+      <module name="springdata_jpa_manytomany" target="1.8" />
       <module name="springdata_jpa_onetomany" target="1.8" />
     </bytecodeTargetLevel>
   </component>

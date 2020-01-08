@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3c8cf2-83be-446c-b5f4-2d735297ec2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springdata_jpa_manytomany/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdata_jpa_manytomany/src/main/java/cn/figo/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa_manytomany/src/main/java/cn/figo/dao/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdata_jpa_manytomany/src/main/java/cn/figo/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa_manytomany/src/main/java/cn/figo/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdata_jpa_manytomany/src/main/java/cn/figo/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa_manytomany/src/main/java/cn/figo/domain/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdata_jpa_manytomany/src/main/java/cn/figo/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa_manytomany/src/main/java/cn/figo/domain/User.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -72,6 +77,7 @@
       <recent name="cn.figo.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1_Code\java\jpa_learn\springdata_jpa_manytomany\src\main\resources" />
       <recent name="D:\1_Code\java\jpa_learn\springdata_jpa_onetomany\src\main\resources" />
     </key>
   </component>
@@ -196,7 +202,7 @@
       <workItem from="1578402540933" duration="5000" />
       <workItem from="1578405247637" duration="5436000" />
       <workItem from="1578412735198" duration="123000" />
-      <workItem from="1578486729717" duration="6721000" />
+      <workItem from="1578486729717" duration="7513000" />
     </task>
     <task id="LOCAL-00001" summary="配置 实体类">
       <created>1577627598460</created>
@@ -338,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578497354774</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="spring data jpa 多对多操作">
+      <created>1578497596946</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1578497596946</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,6 +390,7 @@
     <MESSAGE value="spring data jpa 一对多查询 保存数据库" />
     <MESSAGE value="spring data jpa 一对多 放弃一方的维护权 级联操作" />
     <MESSAGE value="spring data jpa 一对多" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring data jpa 一对多" />
+    <MESSAGE value="spring data jpa 多对多操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring data jpa 多对多操作" />
   </component>
 </project>
