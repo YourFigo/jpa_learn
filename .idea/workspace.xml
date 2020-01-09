@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3c8cf2-83be-446c-b5f4-2d735297ec2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springdata_jpa_manytomany/src/test/java/cn/figo/test/ManyToManyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa_onetomany/src/test/java/cn/figo/test/ObjectQueryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdata_jpa_manytomany/src/main/java/cn/figo/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa_manytomany/src/main/java/cn/figo/domain/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdata_jpa_onetomany/src/main/java/cn/figo/domain/LinkMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa_onetomany/src/main/java/cn/figo/domain/LinkMan.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,23 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ManyToManyTest.testCasCadeRemove">
-    <configuration name="ManyToManyTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springdata_jpa_manytomany" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.figo.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.ManyToManyTest" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ObjectQueryTest.testQuery3">
     <configuration name="ManyToManyTest.testCasCadeAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springdata_jpa_manytomany" />
       <extension name="coverage">
@@ -139,7 +123,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneToManyTest.testCascadeAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ObjectQueryTest.testQuery1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springdata_jpa_onetomany" />
       <extension name="coverage">
         <pattern>
@@ -148,14 +132,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.OneToManyTest" />
-      <option name="METHOD_NAME" value="testCascadeAdd" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.ObjectQueryTest" />
+      <option name="METHOD_NAME" value="testQuery1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneToManyTest.testCascadeRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ObjectQueryTest.testQuery2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springdata_jpa_onetomany" />
       <extension name="coverage">
         <pattern>
@@ -164,8 +148,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.figo.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.test.OneToManyTest" />
-      <option name="METHOD_NAME" value="testCascadeRemove" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.ObjectQueryTest" />
+      <option name="METHOD_NAME" value="testQuery2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectQueryTest.testQuery3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdata_jpa_onetomany" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.figo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.figo.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.test.ObjectQueryTest" />
+      <option name="METHOD_NAME" value="testQuery3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ObjectQueryTest.testQuery3" />
+        <item itemvalue="JUnit.ObjectQueryTest.testQuery1" />
+        <item itemvalue="JUnit.ObjectQueryTest.testQuery2" />
         <item itemvalue="JUnit.ManyToManyTest.testCasCadeRemove" />
         <item itemvalue="JUnit.ManyToManyTest.testCasCadeAdd" />
-        <item itemvalue="JUnit.ManyToManyTest.testAdd" />
-        <item itemvalue="JUnit.OneToManyTest.testCascadeRemove" />
-        <item itemvalue="JUnit.OneToManyTest.testCascadeAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +199,8 @@
       <workItem from="1578402540933" duration="5000" />
       <workItem from="1578405247637" duration="5436000" />
       <workItem from="1578412735198" duration="123000" />
-      <workItem from="1578486729717" duration="8794000" />
+      <workItem from="1578486729717" duration="8898000" />
+      <workItem from="1578575484472" duration="3292000" />
     </task>
     <task id="LOCAL-00001" summary="配置 实体类">
       <created>1577627598460</created>
@@ -355,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578498240937</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="spring data jpa 多对多操作  级联添加和删除">
+      <created>1578499531026</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1578499531026</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,6 +404,33 @@
     <MESSAGE value="spring data jpa 一对多" />
     <MESSAGE value="spring data jpa 多对多操作" />
     <MESSAGE value="spring data jpa 多对多操作  配置实体的多对多" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring data jpa 多对多操作  配置实体的多对多" />
+    <MESSAGE value="spring data jpa 多对多操作  级联添加和删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring data jpa 多对多操作  级联添加和删除" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springdata_jpa_onetomany/src/test/java/cn/figo/test/ObjectQueryTest.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springdata_jpa_onetomany/src/test/java/cn/figo/test/ObjectQueryTest.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springdata_jpa_onetomany/src/test/java/cn/figo/test/ObjectQueryTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jpa_learn$ObjectQueryTest_testQuery2.ic" NAME="ObjectQueryTest.testQuery2 Coverage Results" MODIFIED="1578578982487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cn.figo.test.*</FILTER>
+    </SUITE>
   </component>
 </project>
