@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3c8cf2-83be-446c-b5f4-2d735297ec2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springdata_jpa_onetomany/src/test/java/cn/figo/test/ObjectQueryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdata_jpa_onetomany/src/main/java/cn/figo/domain/LinkMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa_onetomany/src/main/java/cn/figo/domain/LinkMan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +199,7 @@
       <workItem from="1578405247637" duration="5436000" />
       <workItem from="1578412735198" duration="123000" />
       <workItem from="1578486729717" duration="8898000" />
-      <workItem from="1578575484472" duration="3292000" />
+      <workItem from="1578575484472" duration="4067000" />
     </task>
     <task id="LOCAL-00001" summary="配置 实体类">
       <created>1577627598460</created>
@@ -363,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578499531026</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="spring data jpa 多对多操作  对象导航查询">
+      <created>1578581158859</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1578581158859</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +411,8 @@
     <MESSAGE value="spring data jpa 多对多操作" />
     <MESSAGE value="spring data jpa 多对多操作  配置实体的多对多" />
     <MESSAGE value="spring data jpa 多对多操作  级联添加和删除" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring data jpa 多对多操作  级联添加和删除" />
+    <MESSAGE value="spring data jpa 多对多操作  对象导航查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring data jpa 多对多操作  对象导航查询" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
